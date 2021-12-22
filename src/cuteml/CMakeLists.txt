@@ -4,8 +4,6 @@ set(CUTEML_SOURCES
      cuteml/Expression.hpp
      cuteml/ExpressionNode.cpp
      cuteml/ExpressionNode.hpp
-     cuteml/ExpressionTree.cpp
-     cuteml/ExpressionTree.hpp
      cuteml/fileIO.cpp
      cuteml/fileIO.hpp
      cuteml/File.cpp
