@@ -1,7 +1,7 @@
 #include "cuteml/File.hpp"
 
 #include "cuteml/fileIO.hpp"
-#include "cuteml/scaner.hpp"
+#include "cuteml/scanner.hpp"
 
 namespace cuteml
 {

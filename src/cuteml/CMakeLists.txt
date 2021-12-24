@@ -9,8 +9,8 @@ set(CUTEML_SOURCES
      cuteml/File.cpp
      cuteml/File.hpp
      cuteml/FormatParameters.hpp
-     cuteml/scaner.hpp
-     cuteml/scaner.cpp
+     cuteml/scanner.hpp
+     cuteml/scanner.cpp
      )
 
 add_library(cute_engine ${CUTEML_SOURCES})

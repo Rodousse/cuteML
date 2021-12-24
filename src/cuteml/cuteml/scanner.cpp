@@ -1,6 +1,5 @@
-#include "cuteml/scaner.hpp"
-
 #include "cuteml/Expression.hpp"
+#include "cuteml/scanner.hpp"
 
 #include <memory>
 #include <optional>
