@@ -1,11 +1,11 @@
 #pragma once
 
-#include "cuteml/Expression.hpp"
+#include "cuteml/Token.hpp"
 
-#include <optional>
-#include <string>
+#include <vector>
 
 namespace cuteml
 {
-std::unique_ptr<FileExpression> scanQmlContent(const std::string& fileContent);
-}
+[[nodiscard]] TokenList scanQmlContent(std::string_view fileContent);
+
+} // namespace cuteml

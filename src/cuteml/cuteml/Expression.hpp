@@ -31,4 +31,24 @@ class NoFormatExpression : public ExpressionNode
     }
 };
 
+class ImportExpression : public ExpressionNode
+{
+  public:
+    using ExpressionNode::ExpressionNode;
+    [[nodiscard]] std::string format(const FormatParameters&) const override
+    {
+        return std::string(m_contentView);
+    }
+};
+
+class ObjectExpression : public ExpressionNode
+{
+  public:
+    using ExpressionNode::ExpressionNode;
+    [[nodiscard]] std::string format(const FormatParameters&) const override
+    {
+        return std::string(m_contentView);
+    }
+};
+
 } // namespace cuteml

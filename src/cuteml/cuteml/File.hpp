@@ -15,6 +15,8 @@ class File
 
     std::string format();
 
+    const std::optional<std::string>& content() const;
+
   private:
     std::optional<std::string> m_content{};
     std::unique_ptr<FileExpression> m_root;
